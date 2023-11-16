@@ -1,0 +1,32 @@
+
+.register-container {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    padding-top: 20px;
+    .content-right {
+        //der: 1px solid gray;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10% ), 0 8px 16px rgb(0 0 0 / 10% ) ;
+        box-sizing: border-box;
+
+        .fogot-password {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.content-left {
+    margin-top: 50px;
+    .brand {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: blue;
+    }
+    .detail {
+        
+        font-size: 20px;
+    }
+}
